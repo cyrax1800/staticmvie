@@ -29,10 +29,11 @@ body
 .customnav ul ul{
 	list-style-type: none;
 	margin-left: -33px;
+	margin-top :0px;
 	position:absolute;
     left:0;
     z-index: 1;
-    top:51px;
+    top:50px;
     max-height:0;
     overflow:hidden;
     -webkit-transform:perspective(400) rotate3d(1,0,0,-90deg);
@@ -113,4 +114,30 @@ body
 .text-font{
 	color: white;
 }
+.cast img{
+	height: 60px;
+	width: 45px;
+	display: block;
+}
+.table>tbody>tr>td{
+	vertical-align: middle;
+}
+.ssimg{
+	height: 200px;
+	width: 350px;
+	display: block;
+}
+.btn-glyphicon { 
+	padding:8px;
+	 background:#ffffff; 
+	 margin-right:4px; 
+}
+.icon-btn { 
+	padding: 1px 15px 3px 2px; 
+	border-radius:50px;
+}
 
+.btn-download{
+	margin-top: 10px;
+	margin-left: 70px;
+}
